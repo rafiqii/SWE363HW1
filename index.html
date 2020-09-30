@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<!-- In my journey in this homework, i started off with little to no information 
+        about web devolopment. So i decided to startoff visiting W3schools to start practicing 
+        and cover any points i have missed. I started the first day of my homework just reading and
+        practicing html in W3schools and after i finished i went over the slides again. This homework
+        is a combination of information i put together from w3schools, slides and some friends that
+        helped me debug some issues. -->
+
+<head>
+        <!-- The style is pretty much the same for all pages, and i use float left for lists to 
+        have them set side ways. -->
+        <style>
+                li {
+                        float: left;
+                        padding-top: 15px;
+                        padding-right: 200px;
+                        font-size: 20px;
+
+                }
+
+                header {
+                        display: block;
+                        background-color: #f2f2f2;
+                        padding: 60px;
+
+                }
+
+                footer {
+                        padding: 20px;
+                        text-align: center;
+                        background-color: lightslategray;
+
+                }
+        </style>
+        <title> GIS </title>
+        <meta name="keywords" content="SaudiArabia, Map, Geography, Information">
+        <meta name="description" content="Web page to about SaudiArabia and its geography">
+        <meta name="author" content="M. Al-Ahmed">
+
+</head>
+
+<body>
+
+        <header>
+                <a href="index.html">
+                        <img src="gisLogo.png" alt="GIS Logo" width="200" height="140" style="float: left; padding-right: 150px; 
+                        margin-top: -70px;">
+                </a>
+                <!-- Margin is for asthetics -->
+                <ul style="margin-top: -10px;">
+
+
+                        <li>
+                                <p>MAPS</p>
+                        </li>
+                        <li>
+                                <p>RESOURCES</p>
+                        </li>
+                        <li>
+                                <p>EVENTS</p>
+                        </li>
+                        <li>
+                                <p>PRODUCTS</p>
+                        </li>
+
+                </ul>
+                <!-- Margin is negative because i want the element to go top -->
+                <div style="float: right; font-size: 20px; margin-top: -35px;">
+                        <a href="Loginpage.html">
+                                <img src="Login.png" alt="login picture" width="60" height="60"
+                                        style="padding-left: 24px ;">
+                                <p style="margin-top: -5px;">
+                                        sign in / sign up
+                                </p>
+                        </a>
+
+                </div>
+
+        </header>
+        <br>
+        <!-- Display: block and margin: 0 auto was taught to me by a friend to center the page -->
+
+        <img src="map 1.png" alt="Map of Saudi Arabia" usemap="#saudimap"
+                style="padding-top: 40px; margin: 0 auto; display: block;" width="900" height="600">
+
+        <map name="saudimap">
+                <area alt="AlHasa" title="AlHasa" coords="590,351,690,437" shape="rect" href="AlHasa.html">
+                <!-- Nothing is special in these pages, all was used before either in index
+                        or login -->
+                <area alt="Makkah" title="Makkah" coords="240,350,300,463" shape="rect" href="Mecca.html">
+                <area alt="Riyadh" title="Riyadh" coords="405,300,502,400" shape="rect" href="Riyadh.html">
+        </map>
+        <p style="font-size: 30px;">
+                <x style="color: lightslategray;">Saudi Arabia Information</x>: Saudi Arabia is located in the Middle
+                East.
+                Saudi Arabia is bordered by and the Red Sea to the west,
+                Yemen and Oman to the south, the Persian Gulf, Qatar and United
+                Arab Emirates to the east, and Kuwait, Iraq, and Jordan to the north.
+        </p>
+
+        <hr>
+
+
+        <img src="google-earth.jpg" alt="Picture of the earth"
+                style="float: left;padding-top: 40px; padding-right: 20px;">
+        <p style="font-size: 30px; padding-bottom: 30px;">
+                <a href="https://geology.com/google-earth/" style="color: mediumblue;"> Explore Saudi Arabia Using
+                        Google Earth:</a> Google Earth is a free program from Google that allows
+                you to explore satellite images showing the cities and landscapes of Saudi Arabia and all of
+                Asia in fantastic detail. It works on your desktop computer, tablet, or mobile phone.
+                The images in many areas are detailed enough that you can see houses,
+                vehicles and even people on a city street. Google Earth is free and easy-to-use.
+        </p>
+
+
+        <hr>
+
+        <img src="world-map.jpg" alt="Picture of the earth" style="float: left;padding-top: 40px; padding-right: 20px;">
+        <p style="font-size: 30px;padding-bottom: 20px;">
+                <a href="https://geology.com/store/wall-maps/" style="color: mediumblue;"> Saudi Arabia on a World Wall
+                        Map:</a>
+                Saudi Arabia is one of nearly 200 countries illustrated on our Blue Ocean Laminated Map of
+                the World. This map shows a combination of political and physical features.
+                It includes country boundaries, major cities, major mountains in shaded relief,
+                ocean depth in blue color gradient, along with many other features.
+                This is a great map for students, schools, offices and anywhere that a nice map of
+                the world is needed for education, display or decor.
+        </p>
+        <hr>
+        <br>
+        <img src="wall-map-of-asia.jpg" alt="Picture of the earth"
+                style="float: left;padding-top: 40px; padding-right: 20px;">
+        <p style="font-size: 30px; padding-bottom: 40px;">
+                <a href="https://geology.com/world/saudi-arabia-satellite-image.shtml" style="color: mediumblue;"> Saudi
+                        Arabia On a Large Wall Map of Asia:</a>
+                If you are interested in Saudi Arabia and the geography of Asia our large laminated map of Asia
+                might be just what you need. It is a large political map of Asia that also shows many
+                of the continent's physical features in color or shaded relief. Major lakes, rivers,cities,
+                roads, country boundaries, coastlines and surrounding islands are all shown on the map.
+        </p>
+        <hr>
+        <footer>
+                <pre style="font-size: 20px;">
+                    Created by Rafiqi
+                    Visit my steam @Rafiqi
+                    or message me on twitter @M7md_Rafiqi
+                </pre>
+        </footer>
+</body>
+
+</html>
